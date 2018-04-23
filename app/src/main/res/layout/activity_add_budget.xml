@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shakeel.finalyearproject.AddBudget">
+
+    <TextView
+        android:id="@+id/addbudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Budget"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/budget"
+                android:hint="Add budget"
+                android:inputType="number"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/backAccount"
+                android:hint="Add Bank account"
+                android:inputType="number"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/syncAccount"
+            android:text="Sync Account"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToMenu"
+            android:text="Go to main menu"/>
+    </LinearLayout>
+
+</RelativeLayout>
