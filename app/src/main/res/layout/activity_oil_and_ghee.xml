@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shakeel.finalyearproject.OilAndGheeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- item 1 -->
+            <RelativeLayout
+                android:id="@+id/layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/dalda_oil_onelitre" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dalda Cooking Oil"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="127dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text1"
+                    android:text="1 Litre"
+                    android:layout_marginLeft="127dp"
+                    />
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text2"
+                    android:text="RS. 190"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="127dp"
+                    android:layout_marginTop="20dp"/>
+                <Button
+                    android:id="@+id/delete1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="66dp"
+                    android:text="-"
+                    />
+                <TextView
+                    android:id="@+id/count1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginTop="66dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/add1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <!-- item 2 -->
+            <RelativeLayout
+                android:id="@+id/DaldaFiveLitersPac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/dalda_cooking_fivelitrespac" />
+
+                <TextView
+                    android:id="@+id/brandName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dalda Cooking Oil"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="127dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Quantity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brandName2"
+                    android:text="5 Litres Pac"
+                    android:layout_marginLeft="127dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Quantity2"
+                    android:text="RS. 925"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="127dp"
+                    android:layout_marginTop="20dp"/>
+                <Button
+                    android:id="@+id/delete2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="66dp"
+                    android:text="-"
+                    />
+                <TextView
+                    android:id="@+id/count2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginTop="66dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/add2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <!-- item 3 -->
+            <RelativeLayout
+                android:id="@+id/DaldaFiveLitersBottle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/dalda_cookingoil_bottle" />
+
+                <TextView
+                    android:id="@+id/brandName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dalda Cooking Oil"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="127dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Quantity3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brandName3"
+                    android:text="4.5 Litres"
+                    android:layout_marginLeft="127dp"
+                    />
+                <TextView
+                    android:id="@+id/Price3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Quantity3"
+                    android:text="RS. 880"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="127dp"
+                    android:layout_marginTop="20dp"/>
+                <Button
+                    android:id="@+id/delete3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="66dp"
+                    android:text="-"
+                    />
+                <TextView
+                    android:id="@+id/count3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginTop="66dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/add3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <!-- item 4 -->
+            <RelativeLayout
+                android:id="@+id/HabibPouch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/habib" />
+
+                <TextView
+                    android:id="@+id/brandName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Habib Cooking Oil"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="127dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Quantity4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brandName4"
+                    android:text="1 Litre"
+                    android:layout_marginLeft="127dp"
+                    />
+                <TextView
+                    android:id="@+id/Price4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Quantity4"
+                    android:text="RS. 200"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="127dp"
+                    android:layout_marginTop="20dp"/>
+                <Button
+                    android:id="@+id/delete4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="66dp"
+                    android:text="-"
+                    />
+                <TextView
+                    android:id="@+id/count4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginTop="66dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/add4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <!-- item 5 -->
+            <RelativeLayout
+                android:id="@+id/HabibCan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/habib_cookingoil_fiveliters_can" />
+
+                <TextView
+                    android:id="@+id/brandName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Habib Cooking Oil"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="127dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Quantity5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brandName5"
+                    android:text="5 Litres Can"
+                    android:layout_marginLeft="127dp"
+                    />
+                <TextView
+                    android:id="@+id/Price5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Quantity5"
+                    android:text="RS. 1000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="127dp"
+                    android:layout_marginTop="20dp"/>
+                <Button
+                    android:id="@+id/delete5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="66dp"
+                    android:text="-"
+                    />
+                <TextView
+                    android:id="@+id/count5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginTop="66dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/add5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <!-- item 6 -->
+            <RelativeLayout
+                android:id="@+id/HabibPac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/dalda_oil_onelitre" />
+
+                <TextView
+                    android:id="@+id/brandName6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Habib Cooking Oil"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="127dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Quantity6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brandName6"
+                    android:text="5 Litres Pac"
+                    android:layout_marginLeft="127dp"
+                    />
+                <TextView
+                    android:id="@+id/Price6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Quantity6"
+                    android:text="RS. 980"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="127dp"
+                    android:layout_marginTop="20dp"/>
+                <Button
+                    android:id="@+id/delete6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="66dp"
+                    android:text="-"
+                    />
+                <TextView
+                    android:id="@+id/count6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginTop="66dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/add6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="+"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
